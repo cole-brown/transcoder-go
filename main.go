@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Vilsol/transcoder-go/cmd"
+import "github.com/cole-brown/transcoder-go/cmd"
 
 func main() {
 	cmd.Execute()

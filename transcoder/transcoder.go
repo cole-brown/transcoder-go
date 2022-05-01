@@ -1,9 +1,9 @@
 package transcoder
 
 import (
-	"github.com/Vilsol/transcoder-go/models"
-	"github.com/Vilsol/transcoder-go/notifications"
-	"github.com/Vilsol/transcoder-go/utils"
+    "github.com/cole-brown/transcoder-go/models"
+    "github.com/cole-brown/transcoder-go/notifications"
+    "github.com/cole-brown/transcoder-go/utils"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"
 	"io"

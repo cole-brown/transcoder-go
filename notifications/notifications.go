@@ -1,7 +1,7 @@
 package notifications
 
 import (
-	"github.com/Vilsol/transcoder-go/models"
+    "github.com/cole-brown/transcoder-go/models"
 	"path/filepath"
 	"strconv"
 	"time"

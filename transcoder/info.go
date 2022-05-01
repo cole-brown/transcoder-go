@@ -2,7 +2,7 @@ package transcoder
 
 import (
 	"encoding/json"
-	"github.com/Vilsol/transcoder-go/models"
+    "github.com/cole-brown/transcoder-go/models"
 	"github.com/pkg/errors"
 	log "github.com/sirupsen/logrus"
 	"io/ioutil"

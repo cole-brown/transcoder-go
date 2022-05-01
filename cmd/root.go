@@ -1,11 +1,11 @@
 package cmd
 
 import (
-	"github.com/Vilsol/transcoder-go/config"
-	"github.com/Vilsol/transcoder-go/models"
-	"github.com/Vilsol/transcoder-go/notifications"
-	"github.com/Vilsol/transcoder-go/transcoder"
-	"github.com/Vilsol/transcoder-go/utils"
+    "github.com/cole-brown/transcoder-go/config"
+    "github.com/cole-brown/transcoder-go/models"
+    "github.com/cole-brown/transcoder-go/notifications"
+    "github.com/cole-brown/transcoder-go/transcoder"
+    "github.com/cole-brown/transcoder-go/utils"
 	"github.com/bmatcuk/doublestar/v4"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/cobra"

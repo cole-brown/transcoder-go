@@ -2,8 +2,8 @@ package notifications
 
 import (
 	"fmt"
-	"github.com/Vilsol/transcoder-go/models"
-	"github.com/Vilsol/transcoder-go/utils"
+    "github.com/cole-brown/transcoder-go/models"
+    "github.com/cole-brown/transcoder-go/utils"
 	"github.com/go-telegram-bot-api/telegram-bot-api"
 	log "github.com/sirupsen/logrus"
 	"github.com/spf13/viper"

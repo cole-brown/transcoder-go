@@ -1,4 +1,4 @@
-module github.com/Vilsol/transcoder-go
+module github.com/cole-brown/transcoder-go
 
 go 1.17
 
