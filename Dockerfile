@@ -1,5 +1,15 @@
 FROM ghcr.io/vilsol/ffmpeg-alpine:latest as ffmpeg
 
+
+FROM golang:latest as build
+
+WORKDIR /app
+
+COPY * .
+
+RUN go mod download && \
+	go build -o transcoder-go
+
 FROM alpine:edge
 
 # ffmpeg
@@ -21,6 +31,6 @@ RUN apk add --no-cache \
 	numactl \
 	nasm
 
-COPY transcoder-go /transcoder
+COPY --from=build /app/transcoder-go /transcoder
 
 ENTRYPOINT ["/transcoder"]
