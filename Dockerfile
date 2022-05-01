@@ -5,7 +5,7 @@ FROM golang:latest as build
 
 WORKDIR /app
 
-COPY * .
+COPY * ./
 
 RUN go mod download && \
 	go build -o transcoder-go
